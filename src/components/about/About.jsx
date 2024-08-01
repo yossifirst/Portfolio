@@ -51,7 +51,7 @@ const About = () => {
             My <motion.b whileHover={{color:"rgb(148, 82, 148)"}}>Tech Stack</motion.b>.
           </h1>
           <a
-            href="/Resume_07_24_24.pdf"
+            href="/Resume_07_29_24.pdf"
             download="Dan_Firstenberg_Resume.pdf"
             className="download-button"
           >
@@ -61,7 +61,7 @@ const About = () => {
       </motion.div>
       <motion.div className="resumeContainer" variants={variants}>
         <iframe
-          src="/Resume_07_24_24.pdf"
+          src="/Resume_07_29_24.pdf"
           title="Resume"
           width="100%"
           height="600px"
