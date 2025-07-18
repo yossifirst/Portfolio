@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Linkedin, Github } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -60,6 +60,28 @@ const Navbar = () => {
             className="h-14 sm:h-16" 
           />
         </a>
+
+        {/* Social Media Buttons */}
+        <div className="hidden md:flex items-center space-x-4">
+          <a 
+            href="https://www.linkedin.com/in/dan-firstenberg-474865274" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="p-2 rounded-full bg-black text-white hover:bg-gray-800 transition-colors duration-200"
+            aria-label="LinkedIn Profile"
+          >
+            <Linkedin size={20} />
+          </a>
+          <a 
+            href="https://github.com/danfirsten" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="p-2 rounded-full bg-black text-white hover:bg-gray-800 transition-colors duration-200"
+            aria-label="GitHub Profile"
+          >
+            <Github size={20} />
+          </a>
+        </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
