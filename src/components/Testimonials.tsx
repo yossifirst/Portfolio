@@ -10,27 +10,27 @@ interface TestimonialProps {
 }
 
 const testimonials: TestimonialProps[] = [{
-  content: "Atlas transformed our production line, handling repetitive tasks while our team focuses on innovation. 30% increase in output within three months.",
-  author: "Sarah Chen",
-  role: "VP of Operations, Axion Manufacturing",
+  content: "Dan's AI expertise and technical leadership made our digital assistant project a huge success. His ability to translate complex requirements into working solutions is exceptional.",
+  author: "Oracle Team Lead",
+  role: "Senior Manager, Oracle Cloud",
   gradient: "from-blue-700 via-indigo-800 to-purple-900",
   backgroundImage: "/background-section1.png"
 }, {
-  content: "Implementing Atlas in our fulfillment centers reduced workplace injuries by 40% while improving order accuracy. The learning capabilities are remarkable.",
-  author: "Michael Rodriguez",
-  role: "Director of Logistics, GlobalShip",
+  content: "Working with Dan on the autonomous driving project was fantastic. His implementation of computer vision algorithms exceeded our expectations and timeline.",
+  author: "Dr. Research Director",
+  role: "CORE Lab, UC Davis",
   gradient: "from-indigo-900 via-purple-800 to-orange-500",
   backgroundImage: "/background-section2.png"
 }, {
-  content: "Atlas adapted to our lab protocols faster than any system we've used. It's like having another researcher who never gets tired and maintains perfect precision.",
-  author: "Dr. Amara Patel",
-  role: "Lead Scientist, BioAdvance Research",
+  content: "Dan's leadership in developing our chess education app was remarkable. He managed the full development cycle and delivered a solid foundation for our MVP.",
+  author: "Startup Founder",
+  role: "EdTech Startup CEO",
   gradient: "from-purple-800 via-pink-700 to-red-500",
   backgroundImage: "/background-section3.png"
 }, {
-  content: "As a mid-size business, we never thought advanced robotics would be accessible to us. Atlas changed that equation entirely with its versatility and ease of deployment.",
-  author: "Jason Lee",
-  role: "CEO, Innovative Solutions Inc.",
+  content: "Dan's creative direction and technical insight helped us create content that resonated with millions. His understanding of both technology and audience is unique.",
+  author: "John Rusanov",
+  role: "Content Creator, 5M+ Followers",
   gradient: "from-orange-600 via-red-500 to-purple-600",
   backgroundImage: "/background-section1.png"
 }];
