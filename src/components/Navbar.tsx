@@ -55,8 +55,8 @@ const Navbar = () => {
           aria-label="Dan Firstenberg"
         >
           <img 
-            src="/logo.svg" 
-            alt="Pulse Robot Logo" 
+            src="/lovable-uploads/3ca4c9f9-da9d-4c89-b80d-3201faad3c4e.png" 
+            alt="Dan Firstenberg Logo" 
             className="h-7 sm:h-8" 
           />
         </a>
