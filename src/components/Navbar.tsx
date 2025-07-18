@@ -55,7 +55,7 @@ const Navbar = () => {
           aria-label="Dan Firstenberg"
         >
           <img 
-            src="/lovable-uploads/3ca4c9f9-da9d-4c89-b80d-3201faad3c4e.png" 
+            src="/lovable-uploads/6d0e105e-97a2-4a78-a48b-acc949fbf697.png" 
             alt="Dan Firstenberg Logo" 
             className="h-28 sm:h-32" 
           />
