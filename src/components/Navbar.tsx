@@ -52,7 +52,7 @@ const Navbar = () => {
             e.preventDefault();
             scrollToTop();
           }}
-          aria-label="Pulse Robot"
+          aria-label="Dan Firstenberg"
         >
           <img 
             src="/logo.svg" 
