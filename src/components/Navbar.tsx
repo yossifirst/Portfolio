@@ -67,7 +67,7 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/dan-firstenberg-474865274" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-2 rounded-full text-black hover:bg-gray-100 transition-colors duration-200"
+            className="p-2 rounded-full text-black hover:bg-gray-200 transition-colors duration-200"
             aria-label="LinkedIn Profile"
           >
             <Linkedin size={20} />
@@ -76,7 +76,7 @@ const Navbar = () => {
             href="https://github.com/danfirsten" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-2 rounded-full text-black hover:bg-gray-300 transition-colors duration-200"
+            className="p-2 rounded-full text-black hover:bg-gray-250 transition-colors duration-200"
             aria-label="GitHub Profile"
           >
             <Github size={20} />
