@@ -76,7 +76,7 @@ const Navbar = () => {
             href="https://github.com/danfirsten" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-2 rounded-full text-black hover:bg-gray-250 transition-colors duration-200"
+            className="p-2 rounded-full text-black hover:bg-gray-200 transition-colors duration-200"
             aria-label="GitHub Profile"
           >
             <Github size={20} />
