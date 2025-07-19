@@ -57,7 +57,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/6d0e105e-97a2-4a78-a48b-acc949fbf697.png" 
             alt="Dan Firstenberg Logo" 
-            className="h-14 sm:h-16" 
+            className="h-28 sm:h-32" 
           />
         </a>
 
@@ -67,7 +67,7 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/dan-firstenberg-474865274" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-2 rounded-full text-black hover:bg-gray-200 transition-colors duration-200"
+            className="nav-link p-2 rounded-full"
             aria-label="LinkedIn Profile"
           >
             <Linkedin size={20} />
@@ -76,7 +76,7 @@ const Navbar = () => {
             href="https://github.com/danfirsten" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-2 rounded-full text-black hover:bg-gray-200 transition-colors duration-200"
+            className="nav-link p-2 rounded-full"
             aria-label="GitHub Profile"
           >
             <Github size={20} />
