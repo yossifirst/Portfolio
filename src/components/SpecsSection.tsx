@@ -56,7 +56,7 @@ const SpecsSection = () => {
                   <p className="text-gray-600 text-sm">July 2025</p>
                 </div>
               </div>
-              <p className="text-gray-700 text-sm">Completed foundational training in AI and machine learning with emphasis on practical applications within OCI. Gained proficiency in Generative AI, LLMs, and deep learning architectures (CNNs, RNNs, LSTMs). Explored OCI AI Services including vision, speech, language, and document understanding, as well as Oracle 23ai, Generative AI, and Select AI. Developed skills in applying supervised and unsupervised learning techniques to solve business challenges using OCI’s AI tools portfolio..</p>
+              <p className="text-gray-700 text-sm">Completed foundational training in AI and machine learning with emphasis on practical applications within OCI. Gained proficiency in Generative AI, LLMs, and deep learning architectures (CNNs, RNNs, LSTMs). Explored OCI AI Services including vision, speech, language, and document understanding, as well as Oracle 23ai, Generative AI, and Select AI. Developed skills in applying supervised and unsupervised learning techniques to solve business challenges using OCI’s AI tools portfolio.</p>
             </div>
           </div>
         </div>
