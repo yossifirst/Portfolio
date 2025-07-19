@@ -97,8 +97,8 @@ const Navbar = () => {
           >
             Home
           </a>
-          <a href="#specifications" className="nav-link">About</a>
           <a href="#experience" className="nav-link">Experience</a>
+          <a href="#specifications" className="nav-link">About</a>
           <a href="#projects" className="nav-link">Projects</a>
           <a href="#skills" className="nav-link">Skills</a>
           <a href="#contact" className="nav-link">Contact</a>
