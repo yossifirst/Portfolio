@@ -57,7 +57,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/6d0e105e-97a2-4a78-a48b-acc949fbf697.png" 
             alt="Dan Firstenberg Logo" 
-            className="h-28 sm:h-32" 
+            className="h-14 sm:h-16" 
           />
         </a>
 
