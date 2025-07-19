@@ -45,42 +45,44 @@ const Navbar = () => {
       )}
     >
       <div className="container flex items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a 
-          href="#" 
-          className="flex items-center space-x-2"
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToTop();
-          }}
-          aria-label="Dan Firstenberg"
-        >
-          <img 
-            src="/lovable-uploads/6d0e105e-97a2-4a78-a48b-acc949fbf697.png" 
-            alt="Dan Firstenberg Logo" 
-            className="h-14 sm:h-16" 
-          />
-        </a>
+        <div className="flex items-center space-x-4">
+          <a 
+            href="#" 
+            className="flex items-center space-x-2"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToTop();
+            }}
+            aria-label="Dan Firstenberg"
+          >
+            <img 
+              src="/lovable-uploads/6d0e105e-97a2-4a78-a48b-acc949fbf697.png" 
+              alt="Dan Firstenberg Logo" 
+              className="h-14 sm:h-16" 
+            />
+          </a>
 
-        {/* Social Media Buttons */}
-        <div className="hidden md:flex items-center space-x-4">
-          <a 
-            href="https://www.linkedin.com/in/dan-firstenberg-474865274" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="nav-link p-2 rounded-full"
-            aria-label="LinkedIn Profile"
-          >
-            <Linkedin size={20} />
-          </a>
-          <a 
-            href="https://github.com/danfirsten" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="nav-link p-2 rounded-full"
-            aria-label="GitHub Profile"
-          >
-            <Github size={20} />
-          </a>
+          {/* Social Media Buttons */}
+          <div className="hidden md:flex items-center space-x-4">
+            <a 
+              href="https://www.linkedin.com/in/dan-firstenberg-474865274" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="nav-link p-2 rounded-full"
+              aria-label="LinkedIn Profile"
+            >
+              <Linkedin size={20} />
+            </a>
+            <a 
+              href="https://github.com/danfirsten" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="nav-link p-2 rounded-full"
+              aria-label="GitHub Profile"
+            >
+              <Github size={20} />
+            </a>
+          </div>
         </div>
 
         {/* Desktop Navigation */}
