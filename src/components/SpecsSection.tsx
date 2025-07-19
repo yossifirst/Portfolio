@@ -37,11 +37,11 @@ const SpecsSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg">Oracle Cloud Infrastructure</h4>
-                  <p className="text-gray-600 text-sm">2025 Foundations</p>
+                  <h4 className="font-semibold text-lg">OCI (Cloud) Foundations</h4>
+                  <p className="text-gray-600 text-sm">June 2025</p>
                 </div>
               </div>
-              <p className="text-gray-700 text-sm">Foundation-level certification covering core OCI services, architecture, and best practices.</p>
+              <p className="text-gray-700 text-sm">Completed foundational training in Oracle Cloud Infrastructure, covering the basics of how cloud computing works and the core services offered by OCI. Gained understanding of public cloud concepts, OCI architecture, and key services such as compute, storage, networking, and identity.</p>
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-elegant border border-gray-100">
@@ -52,11 +52,11 @@ const SpecsSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg">OCI AI</h4>
-                  <p className="text-gray-600 text-sm">2025 Foundations</p>
+                  <h4 className="font-semibold text-lg">OCI AI Foundations</h4>
+                  <p className="text-gray-600 text-sm">July 2025</p>
                 </div>
               </div>
-              <p className="text-gray-700 text-sm">Specialized certification in Oracle's AI and machine learning services and implementation strategies.</p>
+              <p className="text-gray-700 text-sm">Completed foundational training in AI and machine learning with emphasis on practical applications within OCI. Gained proficiency in Generative AI, LLMs, and deep learning architectures (CNNs, RNNs, LSTMs). Explored OCI AI Services including vision, speech, language, and document understanding, as well as Oracle 23ai, Generative AI, and Select AI. Developed skills in applying supervised and unsupervised learning techniques to solve business challenges using OCI’s AI tools portfolio..</p>
             </div>
           </div>
         </div>
