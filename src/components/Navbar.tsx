@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Menu, X, Linkedin, Github } from "lucide-react";
-import ThemeToggle from "@/components/ThemeToggle";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -87,38 +86,32 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center space-x-8">
-          <nav className="flex space-x-8">
-            <a 
-              href="#" 
-              className="nav-link"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToTop();
-              }}
-            >
-              Home
-            </a>
-            <a href="#experience" className="nav-link">Experience</a>
-            <a href="#specifications" className="nav-link">About</a>
-            <a href="#projects" className="nav-link">Projects</a>
-            <a href="#skills" className="nav-link">Skills</a>
-            <a href="#contact" className="nav-link">Contact</a>
-          </nav>
-          <ThemeToggle />
-        </div>
-
-        {/* Mobile menu button and theme toggle */}
-        <div className="md:hidden flex items-center space-x-2">
-          <ThemeToggle />
-          <button 
-            className="text-gray-700 p-3 focus:outline-none" 
-            onClick={toggleMenu}
-            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        <nav className="hidden md:flex space-x-8">
+          <a 
+            href="#" 
+            className="nav-link"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToTop();
+            }}
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
+            Home
+          </a>
+          <a href="#experience" className="nav-link">Experience</a>
+          <a href="#specifications" className="nav-link">About</a>
+          <a href="#projects" className="nav-link">Projects</a>
+          <a href="#skills" className="nav-link">Skills</a>
+          <a href="#contact" className="nav-link">Contact</a>
+        </nav>
+
+        {/* Mobile menu button - increased touch target */}
+        <button 
+          className="md:hidden text-gray-700 p-3 focus:outline-none" 
+          onClick={toggleMenu}
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        >
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
       </div>
 
       {/* Mobile Navigation - improved for better touch experience */}
