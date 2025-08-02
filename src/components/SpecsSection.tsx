@@ -28,35 +28,131 @@ const SpecsSection = () => {
         {/* Certifications Section */}
         <div className="mb-12 sm:mb-16">
           <h3 className="text-2xl sm:text-3xl font-display font-bold mb-8 pl-4 sm:pl-8">Certifications</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 sm:px-8">
-            <div className="bg-white rounded-xl p-6 shadow-elegant border border-gray-100">
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-pulse-50 rounded-lg flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 sm:px-8">
+            <div className="bg-white rounded-xl p-4 shadow-elegant border border-gray-100">
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-pulse-50 rounded-lg flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2L2 7v10c0 5.55 3.84 9.64 9 10 .46.03.86.03 1 0 5.16-.36 9-4.45 9-10V7l-10-5z"/>
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg">OCI (Cloud) Foundations</h4>
-                  <p className="text-gray-600 text-sm">June 2025</p>
+                  <h4 className="font-semibold text-sm">OCI (Cloud) Foundations</h4>
+                  <p className="text-gray-600 text-xs">June 2025</p>
                 </div>
               </div>
-              <p className="text-gray-700 text-sm">Completed foundational training in Oracle Cloud Infrastructure, covering the basics of how cloud computing works and the core services offered by OCI. Gained understanding of public cloud concepts, OCI architecture, and key services such as compute, storage, networking, and identity.</p>
             </div>
             
-            <div className="bg-white rounded-xl p-6 shadow-elegant border border-gray-100">
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-pulse-50 rounded-lg flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
+            <div className="bg-white rounded-xl p-4 shadow-elegant border border-gray-100">
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-pulse-50 rounded-lg flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg">OCI AI Foundations</h4>
-                  <p className="text-gray-600 text-sm">July 2025</p>
+                  <h4 className="font-semibold text-sm">OCI AI Foundations</h4>
+                  <p className="text-gray-600 text-xs">July 2025</p>
                 </div>
               </div>
-              <p className="text-gray-700 text-sm">Completed foundational training in AI and machine learning with emphasis on practical applications within OCI. Gained proficiency in Generative AI, LLMs, and deep learning architectures (CNNs, RNNs, LSTMs). Explored OCI AI Services including vision, speech, language, and document understanding, as well as Oracle 23ai, Generative AI, and Select AI. Developed skills in applying supervised and unsupervised learning techniques to solve business challenges using OCI’s AI tools portfolio.</p>
+            </div>
+
+            <div className="bg-white rounded-xl p-4 shadow-elegant border border-gray-100">
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-pulse-50 rounded-lg flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm">Vector Databases</h4>
+                  <p className="text-gray-600 text-xs">August 2025</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-4 shadow-elegant border border-gray-100">
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-pulse-50 rounded-lg flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM8.5 15H7V9h1.5v6zm5.5 0h-1.5V9H14v6zm5.5 0H18V9h1.5v6z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm">Docker Foundations</h4>
+                  <p className="text-gray-600 text-xs">August 2025</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-4 shadow-elegant border border-gray-100">
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-pulse-50 rounded-lg flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm">SQL Essentials</h4>
+                  <p className="text-gray-600 text-xs">July 2025</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-4 shadow-elegant border border-gray-100">
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-pulse-50 rounded-lg flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm">Multiple Context Protocol (MCP)</h4>
+                  <p className="text-gray-600 text-xs">August 2025</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-4 shadow-elegant border border-gray-100">
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-pulse-50 rounded-lg flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M3 7v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V7H3zm16-2V3c0-1.1-.9-2-2-2H7c-1.1 0-2 .9-2 2v2H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm">Designing RESTful APIs</h4>
+                  <p className="text-gray-600 text-xs">August 2025</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-4 shadow-elegant border border-gray-100">
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-pulse-50 rounded-lg flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm">Microservices: Design Patterns</h4>
+                  <p className="text-gray-600 text-xs">August 2025</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-4 shadow-elegant border border-gray-100">
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-pulse-50 rounded-lg flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-pulse-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7v10c0 5.55 3.84 9.64 9 10 .46.03.86.03 1 0 5.16-.36 9-4.45 9-10V7l-10-5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm">Build AI Agents & Chatbots with LangGraph</h4>
+                  <p className="text-gray-600 text-xs">August 2025</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
