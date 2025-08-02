@@ -4,6 +4,22 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
+      name: "Davis Autonomous Race Car (DARC)",
+      description: "Contributing to CORE Lab's car for the F1Tenth Autonomous Racing League, developing computer vision solutions for real-time racetrack mapping and navigation.",
+      technologies: ["LangSAM", "TinySAM", "TensorFlow", "ROS2", "Python", "C++", "OpenCV"],
+      timeline: "January 2025 - June 2025",
+      features: [
+        "Semi-automated map generation pipeline with bitmask stitching method",
+        "Real-time CNN control system using TinySAM for dynamic track segmentation",
+        "Data preprocessing tools with GUI for filtering training images",
+        "Integration with SLAM and planning stack using ROS2 on NVIDIA Jetson Xavier NX",
+        "Sensor fusion proposal for LiDAR and depth data integration"
+      ],
+      github: "#",
+      demo: "#",
+      category: "Autonomous Systems"
+    },
+    {
       name: "Distributed File System",
       description: "A comprehensive file system implementation inspired by Amazon S3, featuring both local and distributed storage capabilities.",
       technologies: ["C++", "Web Server", "HTTP API"],
