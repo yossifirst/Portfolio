@@ -20,6 +20,22 @@ const ProjectsSection = () => {
       category: "Autonomous Systems"
     },
     {
+      name: "Winner - Oracle Intern Idea-a-thon",
+      description: "1st place winning AI-powered platform as part of Team SkillSync, helping students translate academic coursework into job-ready skills with personalized career guidance.",
+      technologies: ["AI/ML", "Python", "React", "Oracle Cloud", "Data Analytics"],
+      timeline: "July 2025",
+      features: [
+        "Skills Dashboard mapping university classes to in-demand skills",
+        "Mentor-Bot providing intelligent course recommendations",
+        "Integration of course evaluations with real-world job data",
+        "Personalized course-to-career guidance system",
+        "Strategic learning journey navigation tools"
+      ],
+      github: "#",
+      demo: "#",
+      category: "AI/Product Development"
+    },
+    {
       name: "Distributed File System",
       description: "A comprehensive file system implementation inspired by Amazon S3, featuring both local and distributed storage capabilities.",
       technologies: ["C++", "Web Server", "HTTP API"],
