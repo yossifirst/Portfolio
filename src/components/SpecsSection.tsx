@@ -159,13 +159,60 @@ const SpecsSection = () => {
 
         {/* Technical Skills Section */}
         <div className="mb-12 sm:mb-16">
-          <h3 className="text-2xl sm:text-3xl font-display font-bold mb-8 pl-4 sm:pl-8">Technical Skills</h3>
+          <h3 className="text-2xl sm:text-3xl font-display font-bold mb-8 pl-4 sm:pl-8">Technical Expertise & Development Services</h3>
+          
+          {/* Core Specializations */}
+          <div className="mb-12 px-4 sm:px-8">
+            <h4 className="text-xl font-semibold mb-6 text-pulse-600">Core Specializations</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
+                <div className="w-8 h-8 bg-pulse-500 rounded-lg flex items-center justify-center mb-3">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                  </svg>
+                </div>
+                <h5 className="font-semibold text-sm text-pulse-700 mb-1">AI & Machine Learning</h5>
+                <p className="text-xs text-pulse-600">YOLOv8, LLMs, Computer Vision</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
+                <div className="w-8 h-8 bg-pulse-500 rounded-lg flex items-center justify-center mb-3">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M3 7v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V7H3zm16-2V3c0-1.1-.9-2-2-2H7c-1.1 0-2 .9-2 2v2H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-2z"/>
+                  </svg>
+                </div>
+                <h5 className="font-semibold text-sm text-pulse-700 mb-1">Cloud Architecture</h5>
+                <p className="text-xs text-pulse-600">AWS, Oracle Cloud, OCI AI Services</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
+                <div className="w-8 h-8 bg-pulse-500 rounded-lg flex items-center justify-center mb-3">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7v10c0 5.55 3.84 9.64 9 10 .46.03.86.03 1 0 5.16-.36 9-4.45 9-10V7l-10-5z"/>
+                  </svg>
+                </div>
+                <h5 className="font-semibold text-sm text-pulse-700 mb-1">Autonomous Systems</h5>
+                <p className="text-xs text-pulse-600">ROS2, SLAM, Computer Vision</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
+                <div className="w-8 h-8 bg-pulse-500 rounded-lg flex items-center justify-center mb-3">
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM8.5 15H7V9h1.5v6zm5.5 0h-1.5V9H14v6zm5.5 0H18V9h1.5v6z"/>
+                  </svg>
+                </div>
+                <h5 className="font-semibold text-sm text-pulse-700 mb-1">Full-Stack Development</h5>
+                <p className="text-xs text-pulse-600">React, Django, TypeScript</p>
+              </div>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 px-4 sm:px-8">
             {/* Programming Languages */}
             <div className="bg-white rounded-xl p-6 shadow-elegant border border-gray-100">
               <h4 className="font-semibold text-lg mb-4 text-pulse-600">Programming Languages</h4>
               <div className="flex flex-wrap gap-2">
-                {['Python', 'Java', 'C++', 'Kotlin', 'C', 'JavaScript', 'TypeScript', 'Haskell', 'Erlang', 'Prolog', 'Assembly'].map((skill) => (
+                {['Python', 'Java', 'C++', 'Kotlin', 'C', 'HTML/CSS', 'Assembly', 'Haskell', 'Erlang', 'Prolog', 'SQL'].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
                     {skill}
                   </span>
@@ -177,7 +224,7 @@ const SpecsSection = () => {
             <div className="bg-white rounded-xl p-6 shadow-elegant border border-gray-100">
               <h4 className="font-semibold text-lg mb-4 text-pulse-600">Frameworks & Tools</h4>
               <div className="flex flex-wrap gap-2">
-                {['Django', 'React', 'YOLOv8', 'ROS2', 'TinySAM', 'LangSAM', 'Firebase', 'Docker', 'Redis'].map((skill) => (
+                {['Django', 'React', 'TypeScript', 'YOLOv8', 'ROS2', 'TinySAM', 'LangSAM', 'Firebase', 'Docker', 'Redis'].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
                     {skill}
                   </span>
@@ -189,7 +236,7 @@ const SpecsSection = () => {
             <div className="bg-white rounded-xl p-6 shadow-elegant border border-gray-100">
               <h4 className="font-semibold text-lg mb-4 text-pulse-600">Cloud & Infrastructure</h4>
               <div className="flex flex-wrap gap-2">
-                {['AWS Lambda', 'AWS S3', 'Oracle Cloud', 'OCI AI Services', 'SQL Dialogs', 'IAM', 'Nvidia Jetson'].map((skill) => (
+                {['AWS Lambda', 'AWS S3', 'Oracle Cloud', 'OCI AI Services', 'SQL Dialogs', 'IAM', 'Nvidia Jetson Xavier NX', 'LLMs'].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
                     {skill}
                   </span>
