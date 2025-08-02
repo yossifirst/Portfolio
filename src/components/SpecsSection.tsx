@@ -157,47 +157,15 @@ const SpecsSection = () => {
           </div>
         </div>
 
-        {/* Technical Expertise & Development Services */}
+        {/* Technical Skills Section */}
         <div className="mb-12 sm:mb-16">
-          <h3 className="text-2xl sm:text-3xl font-display font-bold mb-8 pl-4 sm:pl-8">Technical Expertise & Development Services</h3>
-          
-          {/* Core Specializations */}
-          <div className="mb-8 px-4 sm:px-8">
-            <h4 className="text-xl font-semibold mb-4 text-pulse-600">Core Specializations</h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
-                <h5 className="font-semibold text-pulse-800 mb-2">AI & Machine Learning</h5>
-                <p className="text-sm text-pulse-700">YOLOv8 models, LLM integration, Computer Vision, Natural Language Processing</p>
-              </div>
-              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
-                <h5 className="font-semibold text-pulse-800 mb-2">Autonomous Systems</h5>
-                <p className="text-sm text-pulse-700">ROS2 development, SLAM algorithms, Real-time processing pipelines</p>
-              </div>
-              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
-                <h5 className="font-semibold text-pulse-800 mb-2">Cloud Architecture</h5>
-                <p className="text-sm text-pulse-700">AWS Lambda, S3, Oracle Cloud Infrastructure, Distributed systems</p>
-              </div>
-              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
-                <h5 className="font-semibold text-pulse-800 mb-2">Full-Stack Development</h5>
-                <p className="text-sm text-pulse-700">React, Django, TypeScript, RESTful APIs, Database design</p>
-              </div>
-              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
-                <h5 className="font-semibold text-pulse-800 mb-2">Mobile Development</h5>
-                <p className="text-sm text-pulse-700">React Native, Firebase integration, Cross-platform solutions</p>
-              </div>
-              <div className="bg-gradient-to-br from-pulse-50 to-pulse-100 rounded-xl p-4 border border-pulse-200">
-                <h5 className="font-semibold text-pulse-800 mb-2">System Programming</h5>
-                <p className="text-sm text-pulse-700">Distributed file systems, Operating systems, Low-level optimization</p>
-              </div>
-            </div>
-          </div>
-
+          <h3 className="text-2xl sm:text-3xl font-display font-bold mb-8 pl-4 sm:pl-8">Technical Skills</h3>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 px-4 sm:px-8">
             {/* Programming Languages */}
             <div className="bg-white rounded-xl p-6 shadow-elegant border border-gray-100">
               <h4 className="font-semibold text-lg mb-4 text-pulse-600">Programming Languages</h4>
               <div className="flex flex-wrap gap-2">
-                {['Python', 'Java', 'C++', 'Kotlin', 'C', 'HTML/CSS', 'Assembly', 'Haskell', 'Erlang', 'Prolog', 'SQL'].map((skill) => (
+                {['Python', 'Java', 'C++', 'Kotlin', 'C', 'JavaScript', 'TypeScript', 'Haskell', 'Erlang', 'Prolog', 'Assembly'].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
                     {skill}
                   </span>
@@ -209,7 +177,7 @@ const SpecsSection = () => {
             <div className="bg-white rounded-xl p-6 shadow-elegant border border-gray-100">
               <h4 className="font-semibold text-lg mb-4 text-pulse-600">Frameworks & Tools</h4>
               <div className="flex flex-wrap gap-2">
-                {['Django', 'YOLOv8', 'React', 'TypeScript', 'ROS2', 'TinySAM', 'LangSAM', 'Firebase', 'Docker', 'Redis', 'Stockfish AI'].map((skill) => (
+                {['Django', 'React', 'YOLOv8', 'ROS2', 'TinySAM', 'LangSAM', 'Firebase', 'Docker', 'Redis'].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
                     {skill}
                   </span>
@@ -221,7 +189,7 @@ const SpecsSection = () => {
             <div className="bg-white rounded-xl p-6 shadow-elegant border border-gray-100">
               <h4 className="font-semibold text-lg mb-4 text-pulse-600">Cloud & Infrastructure</h4>
               <div className="flex flex-wrap gap-2">
-                {['AWS Lambda', 'AWS S3', 'Oracle Cloud', 'OCI AI Services', 'SQL Dialogs', 'IAM', 'LLMs', 'Nvidia Jetson Xavier NX', 'Ubuntu 20.04'].map((skill) => (
+                {['AWS Lambda', 'AWS S3', 'Oracle Cloud', 'OCI AI Services', 'SQL Dialogs', 'IAM', 'Nvidia Jetson'].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
                     {skill}
                   </span>
