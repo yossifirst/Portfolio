@@ -7,7 +7,7 @@ import SpecsSection from "@/components/SpecsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import Features from "@/components/Features";
 
-import Footer from "@/components/Footer";
+
 
 const Index = () => {
   // Initialize intersection observer to detect when elements enter viewport
@@ -65,7 +65,7 @@ const Index = () => {
         <ProjectsSection />
         <Features />
       </main>
-      <Footer />
+      
     </div>
   );
 };
