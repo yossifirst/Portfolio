@@ -21,7 +21,7 @@ const ExperienceSection = () => {
     {
       title: "Software Engineer",
       company: "CORE Lab, UC Davis",
-      duration: "January 2025 - Present",
+      duration: "January 2025 - June 2025",
       description: "Developing autonomous driving capabilities using TinySAM and LangSAM for the Davis Autonomous Race Car project with ROS2 Framework.",
       background: "/background-section2.png",
       badge: "Current"
