@@ -130,7 +130,9 @@ const Hero = () => {
             >
               <a 
                 href="https://www.linkedin.com/in/dan-firstenberg-474865274" 
-                className="flex items-center justify-center group w-full sm:w-auto text-center" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center group w-full sm:w-auto text-center"
                 style={{
                   backgroundColor: '#FE5C02',
                   borderRadius: '1440px',
