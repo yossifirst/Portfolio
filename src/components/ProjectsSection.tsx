@@ -15,8 +15,8 @@ const ProjectsSection = () => {
         "Integration with SLAM and planning stack using ROS2 on NVIDIA Jetson Xavier NX",
         "Sensor fusion proposal for LiDAR and depth data integration"
       ],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/UCD-193AB-ws24/DavisAutonomousRaceCar",
+      demo: "https://www.youtube.com/watch?si=cO9Rl8SqMO7ibcCG&v=dcUj0-wVvGQ&feature=youtu.be",
       category: "Autonomous Systems"
     },
     {
@@ -31,8 +31,7 @@ const ProjectsSection = () => {
         "Personalized course-to-career guidance system",
         "Strategic learning journey navigation tools"
       ],
-      github: "#",
-      demo: "#",
+      demo: "https://preview--capacity-allocator-750.lovable.app/",
       category: "AI/Product Development"
     },
     {
@@ -47,8 +46,7 @@ const ProjectsSection = () => {
         "HTTP methods (GET, PUT, DELETE)",
         "Transactional disk writes for consistency"
       ],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/danfirsten/Distributed-File-System",
       category: "Systems Programming"
     },
     {
@@ -63,8 +61,8 @@ const ProjectsSection = () => {
         "Custom forms for item listings and transactions",
         "Profile management system"
       ],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/danfirsten/Online-Marketplace",
+      demo: "https://youtu.be/MNlnu1W9kYk",
       category: "Web Development"
     }
   ];
