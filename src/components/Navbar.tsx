@@ -100,8 +100,6 @@ const Navbar = () => {
           <a href="#experience" className="nav-link">Experience</a>
           <a href="#specifications" className="nav-link">About</a>
           <a href="#projects" className="nav-link">Projects</a>
-          <a href="#skills" className="nav-link">Skills</a>
-          <a href="#contact" className="nav-link">Contact</a>
         </nav>
 
         {/* Mobile menu button - increased touch target */}
@@ -161,26 +159,6 @@ const Navbar = () => {
             }}
           >
             Projects
-          </a>
-          <a 
-            href="#skills" 
-            className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
-            onClick={() => {
-              setIsMenuOpen(false);
-              document.body.style.overflow = '';
-            }}
-          >
-            Skills
-          </a>
-          <a 
-            href="#contact" 
-            className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
-            onClick={() => {
-              setIsMenuOpen(false);
-              document.body.style.overflow = '';
-            }}
-          >
-            Contact
           </a>
         </nav>
       </div>
