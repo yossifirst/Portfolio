@@ -1,0 +1,76 @@
+/* ---------- pip ---------- */
+.pip,
+.pip-tracks {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+.pip {
+  z-index: 45;
+  opacity: 0;
+  transition: opacity 400ms var(--ease-out);
+  will-change: transform;
+}
+.pip.on {
+  opacity: 1;
+}
+.pip-tracks {
+  z-index: 44;
+  width: 100%;
+  height: 100%;
+}
+
+/* The period after the name. A plain dot until Pip takes its place, and again whenever Pip is hidden. */
+.pip-slot {
+  display: inline-block;
+  width: 0.19em;
+  height: 0.19em;
+  margin-left: 0.04em;
+  border-radius: 50%;
+  background: currentColor;
+}
+.pip-on:not(.pip-hidden) .pip-slot {
+  background: transparent;
+}
+.pip-on.pip-left:not(.pip-hidden) .pip-slot {
+  background: currentColor;
+  transform: scale(0);
+  animation: pip-slot-back 600ms var(--ease-out) 1.6s forwards;
+}
+@keyframes pip-slot-back {
+  to {
+    transform: scale(1);
+  }
+}
+.pip-dragging,
+.pip-dragging * {
+  user-select: none;
+  cursor: grabbing !important;
+}
+
+.pip-toggle {
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: color 250ms var(--ease-out);
+}
+.pip-toggle:hover {
+  color: var(--ink-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pip {
+    transition: none;
+  }
+  .pip-on.pip-left:not(.pip-hidden) .pip-slot {
+    animation: none;
+    transform: none;
+  }
+}
